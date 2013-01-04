@@ -10,6 +10,7 @@
 		B209005E169757F70052305F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B209005D169757F70052305F /* Foundation.framework */; };
 		B2090061169757F70052305F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2090060169757F70052305F /* main.m */; };
 		B2090071169758950052305F /* MobileDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2090070169758950052305F /* MobileDevice.framework */; };
+		B20900741697690F0052305F /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B20900731697690F0052305F /* utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		B2090063169757F70052305F /* imux-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imux-Prefix.pch"; sourceTree = "<group>"; };
 		B2090070169758950052305F /* MobileDevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileDevice.framework; path = /System/Library/PrivateFrameworks/MobileDevice.framework; sourceTree = "<absolute>"; };
 		B2090072169759490052305F /* mobiledevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobiledevice.h; sourceTree = "<group>"; };
+		B20900731697690F0052305F /* utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
+		B2090075169769210052305F /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		B209005F169757F70052305F /* imux */ = {
 			isa = PBXGroup;
 			children = (
+				B2090075169769210052305F /* utils.h */,
+				B20900731697690F0052305F /* utils.m */,
 				B2090060169757F70052305F /* main.m */,
 				B2090062169757F70052305F /* Supporting Files */,
 				B2090072169759490052305F /* mobiledevice.h */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2090061169757F70052305F /* main.m in Sources */,
+				B20900741697690F0052305F /* utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
